@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style01.css">
+    <title>Anotações do sistema de técnica enfermagem.</title>
+</head>
+<body>
+    <h1>Sistema Separação de pacientes</h1>
+    <h2>Gerar alertas pra que as técnicas recebam notificação do horário dos pacientes</h2>
+    <div id="form">
+        <h2>Cadastro de dados dos pacientes</h2>
+        <div id="pacient-name">
+            <p>Nome do Paciente</p>
+            <input type="text" id="name">
+            <p><input type="button" value="Confirmar" class="confirm"></p>
+        </div>
+        <div id="pacient-age">
+            <p>Idade do Paciente</p>
+            <input type="number" name="age" id="age">
+            <p><input type="button" value="Confirmar" class="confirm"></p>
+        </div>
+        <div id="date-birth">
+            <p>Data de nascimento do Paciente</p>
+            <input type="date" name="birth" id="birth">
+            <p><input type="button" value="Confirmar" class="confirm"></p>
+        </div>
+        <div id="bed-number">
+            <p>Número do Leito</p>
+            <input type="number" name="beds" id="beds">
+            <p><input type="button" value="Confirmar" class="confirm"></p>
+        </div>
+        <div id="appointments">
+            <p>Horários</p>
+            <input type="button" value="+ Adicionar" id="add-appoint">
+            <input type="time" name="schedules" id="schedules">
+            <p><input type="button" value="Confirmar" class="confirm"></p>
+        </div>
+        <div id="observations">
+            <p>Tarefas e observações</p>
+            <textarea id="observ"></textarea>
+            <p><input type="button" value="Confirmar" class="confirm"></p>
+        </div>
+        <div id="send-form">
+            <input type="button" value="Salvar Informações" id="send">
+        </div>
+    </div>
+</body>
+</html>
